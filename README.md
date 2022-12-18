@@ -1,5 +1,5 @@
 # library
-Live demo -> [Click](suprhulk.github.io/library)<br>
+Live demo -> [Click](https://suprhulk.github.io/library/)<br>
 A library app to add and store information about your favourite book.<br>
 Features
 -->Add information about any book<br>
