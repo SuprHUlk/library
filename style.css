@@ -52,7 +52,7 @@ button.add span, .modify button span {
     transition: 0.5s;
 }
    
-button.add span:after, .modify button span:after {
+button.add span:after {
     content: '+';
     position: absolute;
     opacity: 0;
@@ -60,9 +60,35 @@ button.add span:after, .modify button span:after {
     right: -15px;
     transition: 0.5s;
 }
+
+.modify .div1 button span:after {
+    content: '🗑️';
+    position: absolute;
+    opacity: 0;
+    bottom: 0;
+    right: -15px;
+    transition: 0.5s;
+}
+
+.modify .div2 button span:after {
+    content: '✎';
+    position: absolute;
+    opacity: 0;
+    bottom: 0;
+    right: -15px;
+    transition: 0.5s;
+}
    
-button.add:hover span, .modify button:hover span{
+button.add:hover span{
     padding-right: 15px;
+}
+
+.modify .div1 button:hover span {
+    padding-right: 25px;
+}
+
+.modify .div2 button:hover span {
+    padding-right: 20px;
 }
    
 button.add:hover span:after, .modify button:hover span:after{
@@ -77,7 +103,7 @@ button.add:hover span:after, .modify button:hover span:after{
     margin: 60px 0;
     margin-top: 140px;
     padding: 0 120px;
-    min-height: 357px;
+    min-height: 280px;
 }
 
 .container {
@@ -115,7 +141,7 @@ button.add:hover span:after, .modify button:hover span:after{
     background: #cfdad2;
     box-shadow:  -14px 14px 27px #252b2f,
                  14px -14px 27px #2f373d;
-                 margin: 0 auto;
+    margin: 0 auto;
 }
 
 p {
